@@ -15,8 +15,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "cm": "cz",
-    "push": "cm && git push",
-    "postinstall": "npm run build"
+    "push": "cm && git push"
   },
   "repository": {
     "type": "git",
