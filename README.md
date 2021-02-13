@@ -1,5 +1,7 @@
 # Discord bot para inversiones
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 Bot de discord que envía datos de inversiones
 
 ## ¿Cómo lo ejecuto en local?
@@ -12,7 +14,7 @@ Los pasos para iniciar el bot son:
 
 ```
 npm install # instalar las dependencias
-npm start # levantar el entorno de desarrollo
+npm run dev # levantar el entorno de desarrollo
 ```
 
 ## ¿Cómo contribuir al código?
