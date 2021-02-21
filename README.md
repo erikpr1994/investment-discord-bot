@@ -6,9 +6,18 @@ Bot de discord que envía datos de inversiones
 
 ## ¿Cómo lo ejecuto en local?
 
-Necesitarás tener instalado Node.js a partir de la versión 14 y tener acceso a una terminal. Recomiendo instalar [NVM](https://github.com/nvm-sh/nvm) y configurar el llamado de `nvm use` automaticamente.
+Para facilitar la configuración del enterno, he añadido docker para lanzar la app.
+Para iniciarlo:
+
+```
+docker compose up # Este comando te instalará Postgres, Node y te lanzará la app
+```
+
+En caso de que no quieras usar docker, necesitarás tener instalado Node.js a partir de la versión 14 y tener acceso a una terminal. Recomiendo instalar [NVM](https://github.com/nvm-sh/nvm) y configurar el llamado de `nvm use` automaticamente.
 
 👉🏻 [Aquí](https://github.com/nvm-sh/nvm#deeper-shell-integration) te dejo la guia.
+
+Tambien necesitarás instarlarte Postgres.
 
 Los pasos para iniciar el bot son:
 

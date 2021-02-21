@@ -5,13 +5,13 @@ import { stocksFactory } from './stocks';
 import { config } from 'dotenv';
 config();
 
-const dbName: string = process.env.DB_NAME || '';
-const dbUser: string = process.env.DB_USER || '';
-const dbPassword: string = process.env.DB_PASSWORD || '';
+const dbName: string = process.env.POSTGRES_DB || '';
+const dbUser: string = process.env.POSTGRES_USER || '';
+const dbPassword: string = process.env.POSTGRES_PASSWORD || '';
 
 export const dbConfig = new sequelize.Sequelize(dbName, dbUser, dbPassword, {
-  port: Number(process.env.DB_PORT),
-  host: process.env.DB_HOST,
+  port: Number(process.env.POSTGRES_PORT),
+  host: process.env.POSTGRES_HOST,
   dialect: 'postgres',
   pool: {
     min: 0,
